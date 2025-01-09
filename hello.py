@@ -1,5 +1,7 @@
 # Hola mundo, en Python
-print("Hola Nena")
+
+print("\nHola nena")
+print('Do you want someyhing?\n')
 
 """
 ¡Esto tambien es un comentario, de varias líneas!
