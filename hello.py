@@ -13,3 +13,9 @@ Comentario entre comillas simples, It's possible too.
 ¡Hola, nena! ¡Estoy aprendiendo Python! :D
 :]
 '''
+
+n = "Te quiero mucho"
+k = "ingeniera"
+
+print(n, k)
+print(n + " " + k)
