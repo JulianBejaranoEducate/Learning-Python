@@ -2,5 +2,7 @@
 print("Hola Nena")
 
 """
-Tenme pasiencia, estoy aprendiendo Ingeniera. :] 
+¡Esto tambien es un comentario, de varias líneas!
+Tenme pasiencia, estoy aprendiendo Ingeniera. :]
 """
+
