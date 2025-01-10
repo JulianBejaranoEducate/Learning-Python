@@ -97,5 +97,6 @@ print("La cantidad de caracteres  de la direccion es: ", len(address_len))
 # 10. Usa un tipo de dato forzado para declarar una variable phone, asegurÃ¡ndote de que siempre serÃ¡ un nÃºmero. 
 # Luego, cambia su valor a un nÃºmero diferente y verifica el tipo de la variable con type().
 phone = int = 123
+print(type(phone))
 phone = 456
 print(type(phone))
