@@ -1,7 +1,7 @@
 #Hola mundo print 
 #Imprime "¡Hola Mundo!" por consola
 print ("Holi perro")
-print ("Mi nombre: Sara y tengo 20 años")
+print ("Mi nombre: Natalia y tengo 20 años")
 """
 Un tipo de dato es una forma de clasificar 
 diferentes valores con diferentes "categorias"
