@@ -22,3 +22,5 @@ nombre= input()
 print ("¡Hola " + nombre+"!")
 print (2+5)
 print (type (2+5))
+
+#Pedir un número al usuario
