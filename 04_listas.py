@@ -30,6 +30,9 @@ print (name)
 name, height, age, lastname = my_other_list[2], my_other_list[1], my_other_list[0], my_other_list[3]
 print(age)
 
+print("INDICEEE",my_other_list.index("Malory"))
+
+
 print(my_list + my_other_list)
 #print(my_list - my_other_list)
 #Tipado dinaámico -> puede camiar mi variable
@@ -111,7 +114,7 @@ print(my_list_uno)
 # 4. Inserta el nÃºmero 15 en la posiciÃ³n 2 de la lista [10, 20, 30, 40, 50].
 print("4.")
 print(my_list)
-my_list.insert(1,15)
+my_list.insert(2,15)
 print(my_list)
 # 5. Elimina el primer valor 30 de la lista [10, 20, 30, 30, 40, 50].
 print("5.")
@@ -134,9 +137,9 @@ print(my_list)
 # 8. Ordena la lista [3, 1, 4, 2, 5] en orden ascendente e imprÃ­mela.
 print("8.")
 my_list = [3, 1, 4, 2, 5]
-my_list.sort(reverse=False)
+my_list.sort(reverse=False)# ascendente
 print(my_list)
-my_list.sort(reverse=True)
+my_list.sort(reverse=True)# descendene
 print(my_list)
 # 9. Concatena las listas [1, 2, 3] y [4, 5, 6] y almacena el resultado en una nueva lista. Imprime la lista resultante.
 print("9.")
@@ -147,4 +150,9 @@ print(my_new_list)
 # 10. Crea una sublista con los elementos de la lista [10, 20, 30, 40, 50] que van desde la posiciÃ³n 1 hasta la 3 (sin incluir la posiciÃ³n 3).
 print("10.")
 my_list = [10, 20, 30, 40, 50]
-print(my_list[1:2])
+my_sub_list = my_list[1:3]
+print(my_sub_list)
+
+my_list = [3,1,2]
+my_list.sort()
+print(my_list)
