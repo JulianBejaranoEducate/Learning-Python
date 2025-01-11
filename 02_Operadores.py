@@ -1,5 +1,5 @@
 #Operadores aritméticos y comparativos
-
+print( 3 > 4 or 2<3)
 print(3+4)
 print(3-4)
 print(3*4)
