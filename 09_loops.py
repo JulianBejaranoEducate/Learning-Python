@@ -92,9 +92,18 @@ else:
 
 # 3. Escribe un programa que use un bucle while para sumar los nÃºmeros del 1 al 100 e imprime el resultado.
 print("3.")
+i = 1
+sum = 0
+while i <= 100:
+    sum += i
+    i += 1
+print(sum)
 
 # 4. Escribe un bucle for que imprima cada carÃ¡cter de la cadena "Python".
 print("4")
+palabra = "Python"
+for letter in palabra:
+    print (letter)
 
 # 5. Usa un bucle while para encontrar el primer nÃºmero divisible por 7 entre 1 y 50.
 
