@@ -5,7 +5,7 @@ print(3-4)
 print(3*4)
 print(3/4)
 print(10//3)# divicion aproximada a un numero entero
-print(10%2) #Operador de modulo : el resto de una divicion al final
+print(10 % 2) #Operador de modulo : el resto de una divicion al final
 print(2**3)# dos ELEVADO al tres
 
 # concatenar con +
