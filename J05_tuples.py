@@ -10,6 +10,42 @@
 # Ctrl + Shift + K -> Eliminar línea
 # Alt + flecha arriba/abajo -> Mover línea
 
+my_tupla = tuple()
+my_other_tupla = ()
+
+my_tupla = (23, 1.78, "Julian", "Bejarano", "Julian")
+my_other_tupla = (35, 60, 30)
+
+print(my_tupla)
+print(type(my_tupla))
+
+print(my_tupla[0])
+print(my_tupla[-1])
+# print(my_tupla[5]) # IndexError
+# print(my_tupla[-4]) # IndexError
+
+print(my_tupla.count("Julian")) # Cuenta cuantas veces se repite un valor en la tupla
+print(my_tupla.index("Bejarano")) # Devuelve el indice de un valor en la tupla
+print(my_tupla.index("Julian")) # Devuelve el indice de un valor en la tupla 
+
+# my_tupla[1] = 1.80
+
+my_sum_tupla = my_tupla + my_other_tupla
+print(my_sum_tupla)
+
+print(my_sum_tupla[3:6])
+
+my_tupla = list(my_tupla)
+print(type(my_tupla))
+
+my_tupla[4] = "Ness"
+my_tupla.insert(1, "Dorado")
+my_tupla = tuple(my_tupla)
+print(my_tupla)
+print(type(my_tupla))
+
+del my_tupla
+
 
 # Enunciado Ejercicios
 

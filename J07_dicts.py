@@ -10,6 +10,48 @@
 # Ctrl + Shift + K -> Eliminar línea
 # Alt + flecha arriba/abajo -> Mover línea
 
+my_dict = dict()
+my_other_dict = {}
+
+print(type(my_dict))
+print(type(my_other_dict))
+
+# Claves y valores
+my_other_dict = {"Nombre": "Julian", "Apellido": "Garcia", "Edad": 23, 1: "Python"}
+
+my_dict = {"Nombre": "Julian", "Apellido": "Garcia", "Edad": 23, "Lenguajes": {"Python", "Java", "C++"}, 1: 1.78}
+
+print(my_other_dict)
+print(my_dict)
+
+print(len(my_other_dict))
+print(len(my_dict))
+
+print(my_dict["Nombre"])
+
+my_dict["Nombre"] = "Francisco"
+print(my_dict["Nombre"])
+
+print(my_dict[1])
+
+my_dict["Address"] = "Nueva Castilla"
+print(my_dict)
+
+del my_dict["Address"]
+print(my_dict)
+
+print("Francisco" in my_dict)
+print("Nombre" in my_dict)
+
+print(my_dict.items())
+print(my_dict.keys())
+print(my_dict.values())
+
+my_list = ["Nombre", 1, "Piso"]
+
+my_new_dict = my_other_dict.fromkeys(my_list)
+print(my_new_dict)
+
 
 # Enunciados Ejercicios
 

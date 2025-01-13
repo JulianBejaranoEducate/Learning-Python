@@ -85,21 +85,50 @@ print(idioma.endswith("on")) # Termina con
 # Enunciados Ejercicios
 
 # 1. Declara una variable "text" con la frase <Aprendiendo Python> y luego imprime la longitud de la cadena usando "len()".
+text = "Aprendiendo Python"
+print(len(text))
 
 # 2. Concatena dos cadenas: "Hola" y "Python", y muestra el resultadp en una sola linea.
+print("Hola" + " Python")
+print("Hola", "Python")
+print("Hola" + " " + "Python")
 
 # 3. Crea una cadena que incluya un salto de linea, y luego imprimela para ver el resultado.
+text_string = "Hola\nPython"
+print(text_string)
 
 # 4. Usa el formateo de cadenas con "f-strings" para imprimir tu nombre, apellido y edad en una cadena de texto.
+nombre, apellido, edad = "Julian", "Bejarano", 22
+print(f"Mi nombre es {nombre} {apellido} y tengo {edad} años")
 
 # 5. Desempaqueta los caracteres de la palabra "Python" en variables separadas y luego imprimelos uno por uno.
+world = "Python"
+a, b, c, d, e, f = world
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
 
 # 6. Extrae un "slice" de la palabra "Programacion" para obtener los caracteres desde la posicion 3 hasta la 7.
+word = "Programacion"
+slice_word = word[3:8]
+print(slice_word)
 
 # 7. Inivierte la cadena "Python" usando slicing y muestra el resulatado.
+word = "Python"
+reverse_word = word[::-1]
+print(reverse_word)
 
 # 8. Convierte la cadena "Aprendiendo python" en mayúsculas usando el metodo adecuado e imprimela.
+text = "Aprendiendo python"
+print(text.upper())
 
 # 9. Cuenta cuantas veces aparce la letra "n" en la cadena "Programacion en Python".
+text = "Programacion en Python"
+print(text.count("n"))
 
 # 10. Verifica si la cadena "12345" es numerica usando el metodo adecuado e imprime el resultado.
+text = "12345"
+print(text.isnumeric())

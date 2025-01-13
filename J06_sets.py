@@ -10,6 +10,54 @@
 # Ctrl + Shift + K -> Eliminar línea
 # Alt + flecha arriba/abajo -> Mover línea
 
+my_set = set()
+# Hay dos tipos de estructuras de datos que se pueden definir de la misma manera.
+my_other_set = {}
+
+print(type(my_set))
+print(type(my_other_set)) # Incialmente es un diccionario
+
+my_other_set = {"Julian", "Bejarano", 23}
+# print(my_other_set[0]) # TypeError
+print(type(my_other_set))
+
+print(len(my_other_set))
+
+my_other_set.add("Python")
+print(my_other_set) # un "set" no tiene una estructura definida o ordenada
+
+my_other_set.add("Python")
+print(my_other_set) # No se puede repetir elementos en un "set"
+
+print("Julian" in my_other_set)
+print("Canco" in my_other_set)
+
+my_other_set.remove("Julian")
+print(my_other_set)
+
+my_other_set.clear()
+print(len(my_other_set))
+
+del my_other_set # Elimina la variable
+# print(my_other_set) # NameError
+
+my_set = {"Julian", "Bejarano", 23} # Cambia el orden en el que imprime los elementos
+my_list = list(my_set)
+print(my_list)
+print(type(my_list))
+print(my_list[0])
+
+my_other_set = {"Java", "C++", "Python"}
+
+my_new_set = my_set.union(my_other_set)
+print(my_new_set.union(my_new_set).union(my_set).union({"JavaScript", "C#"}))
+
+print(my_new_set.difference(my_set))
+
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+set1.union(set2)
+print(set1.union(set2))
 
 # Enunciados Ejercicios
 
