@@ -137,10 +137,24 @@ class Point:
         self.x = x
         self.y = y
     def distance(self, other_point):
-        return ((self.x - other_point.x)**2 + (self.y - other_point.y)**2)**0.5
-    
+        return ((self.x - other_point.x)**2 + (self.y - other_point.y)**2)**0.5    
 print (Point(2, 0).distance(Point(3,5)))
+
 # 9. Crea una clase "Employee" que tenga propiedades como "name", "hourly_wage" (pago por hora) y "hours_worked". AÃ±ade un mÃ©todo que calcule el pago total basado en las horas trabajadas y el salario por hora.
+class Employee:
+    def __init__(self, name, hourly_wage, hours_worked):
+        self.name = name
+        self.hourly_wage = hourly_wage
+        self.hours_worked = hours_worked
+    def totall_pay(self):
+        return self.hourly_wage * self.hours_worked
 
 # 10. Crea una clase "Store" que tenga una propiedad "inventory" (una lista de productos). AÃ±ade un mÃ©todo para agregar un producto al inventario y otro para mostrar todos los productos disponibles.
-
+class Store:
+    def __init__(self, inventory = []):
+        self.inventory = []
+    def add_product(self, product):
+        self.inventory.append(product)
+    def show_inventory(self):
+        for product in self.inventary:
+            print(product)
