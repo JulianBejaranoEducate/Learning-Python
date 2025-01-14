@@ -46,11 +46,34 @@ print("Nombre" in my_dict)
 print(my_dict.items())
 print(my_dict.keys())
 print(my_dict.values())
+print(my_dict.get("Nombre")) # Si no existe la clave, devuelve None
 
 my_list = ["Nombre", 1, "Piso"]
 
 my_new_dict = my_other_dict.fromkeys(my_list)
 print(my_new_dict)
+
+my_new_dict = dict.fromkeys(("Nombre", 1, "Piso", "Color")) # Se crea un diccionario con las claves de la tupla y valores None
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict)
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict, "Julian") # Se asigna a todas las claves el valor "Julian"
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict, ("Julian", "Bejarano")) # Se asigna a todas las claves el valor de la tupla
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict, ["Julian", "Bejarano"]) # Se asigna a todas las claves la misma lista
+print(my_new_dict)
+
+print(list(my_new_dict)) # Se convierten las claves en una lista
+print(list(my_new_dict.keys()))
+print(list(my_new_dict.values()))
+
+print(tuple(my_new_dict)) # Se convierten las claves en una tupla
+print(set(my_new_dict)) # Se convierten las claves en un conjunto
 
 
 # Enunciados Ejercicios

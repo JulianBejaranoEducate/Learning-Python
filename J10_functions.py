@@ -1,4 +1,4 @@
-# Bucles
+# Funciones / Functions
 
 """ Atajos en python con vsc """
 # Ctrl + K + C -> Comentar
@@ -9,6 +9,76 @@
 # Ctrl + Alt + teclad arriba/abajo -> Duplicar línea
 # Ctrl + Shift + K -> Eliminar línea
 # Alt + flecha arriba/abajo -> Mover línea
+
+ # Una funcion tiene la palabra reservada "def" seguido del nombre de la funcion y parentesis
+def my_function():
+    print("Esto es una funcion") # Esta es la tarea que realiza la funcion
+
+my_function()
+
+def sum_two_values(first_value, second_value):
+    print(first_value + second_value)
+
+sum_two_values(5, 7)
+sum_two_values(10, 20)
+sum_two_values("5", "7") # Esto no es una suma, es una concatenacion
+sum_two_values(1.5, 2.5) # Esto no es una suma, es una concatenacion
+
+""" Return """
+def sum_two_values_with_return(first_value, second_value):
+    return first_value + second_value
+
+my_result = sum_two_values_with_return(7, 7)
+print(my_result)
+
+def sum_two_values(a, b):
+    return a + b
+
+result = sum_two_values(5, 7)
+print(result)
+
+def sum_two_values_with_return(first_value, second_value):
+    my_sum = first_value + second_value
+    return my_sum
+
+def print_name(name, surname):
+    print(f"Hola, {name} {surname}") # f-string, para acceder a variables dentro de un string
+
+print_name(surname = "Julian", name = "Garcia")
+
+def print_name_with_default(name, surname, nickname):
+    print(f"Hola, {name} {surname} {nickname}")
+
+print_name_with_default("Julian", "Garcia", "Juli")
+
+def print_name_with_default(name, surname, nickname = "Juliancho"):
+    print(f"Hola, {name} {surname} {nickname}")
+
+print_name_with_default("Julian", "Garcia")
+
+def print_texts(text):
+    print(text)
+
+print_texts("Hola")
+
+def print_texts(*text): # Puede pasar un numero indefinido de argumentos o parametros
+    print(text)
+
+print_texts("Hola", "Python", "Juli")
+
+def print_texts(*texts):
+    for text in texts:
+        print(text)
+
+print_texts("Hola", "Python", "Juli")
+
+print_texts("Hola", "Python", "Juli")
+
+def print_upper_texts(*texts):
+    for text in texts:
+        print(text.upper())
+
+print_upper_texts("Hola", "Python", "Juli")
 
 
 # Enunciados Ejercicios

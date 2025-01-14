@@ -10,6 +10,64 @@
 # Ctrl + Shift + K -> Eliminar línea
 # Alt + flecha arriba/abajo -> Mover línea
 
+""" Try and Except """
+number_one = 5
+number_two = 6
+
+number_two = "1"
+
+try:
+    print(number_one + number_two)
+    print("No se ha prodiucido ningun error")
+except:
+    #Se ejecuta si se produce un error
+    print("No se cumplió la condición")
+
+
+""" Try, Except and Else """
+try: # Intenta ejecutar el bloque de código
+    print(number_one + number_two) 
+    print("No se ha prodiucido ningun error")
+except: # Si se produce un error, ejecuta este bloque de código
+    print("No se cumplió la condición")
+
+else: # Si no se produce un error, ejecuta este bloque de código, hace la continuación del código
+    # Se ejecuta si no se produce un error
+    print("La ejecución ha sido exitosa")
+
+""" Try, Except, Else and Finally """
+try: # Intenta ejecutar el bloque de código
+    print(number_one + number_two) 
+    print("No se ha prodiucido ningun error")
+except: # Si se produce un error, ejecuta este bloque de código
+    print("No se cumplió la condición")
+
+else: # Si no se produce un error, ejecuta este bloque de código, hace la continuación del código
+    # Se ejecuta si no se produce un error
+    print("La ejecución ha sido exitosa")
+finally:
+    # Se ejecuta siempre
+    print("Se ha completado la ejecución exitosamente")
+
+""" Exepciones por tipo """
+try:
+    print(number_one + number_two) 
+    print("No se ha prodiucido ningun error")
+except ValueError:
+    print("Se ha prodcuido un ValueError")
+except TypeError:
+    print("Se ha prodcuido un TypeError")
+
+""" Captura de la información de la excepción """
+try:
+    print(number_one + number_two) 
+    print("No se ha prodiucido ningun error")
+except ValueError as error:
+    print("error")
+except Exception as error:
+    print("error")
+
+
 # Enunciados Ejercicios
 
 # 1. Crea una función que intente dividir dos números proporcionados por el usuario. Usa try-except para capturar cualquier error de división (por ejemplo, división por cero). 

@@ -1,4 +1,4 @@
-# Modulos
+# Modulos / Modules
 
 """ Atajos en python con vsc """
 # Ctrl + K + C -> Comentar
@@ -9,6 +9,28 @@
 # Ctrl + Alt + teclad arriba/abajo -> Duplicar línea
 # Ctrl + Shift + K -> Eliminar línea
 # Alt + flecha arriba/abajo -> Mover línea
+
+import modulopractica
+
+modulopractica.sum(5, 7)
+modulopractica.printvalu("Hola Pyhton, como estas?")
+
+from modulopractica import sum, printvalu
+
+sum(5, 7)
+printvalu("Hola Pyhton")
+
+import math
+
+print(math.pi)
+print(math.pow(2, 3))
+
+from math import pi as PI_VALUE
+
+print(PI_VALUE)
+
+
+
 
 # Enunciados Ejercicios
 
