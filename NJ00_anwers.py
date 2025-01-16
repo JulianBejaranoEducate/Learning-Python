@@ -21,4 +21,8 @@ Vas muy bien, me alegra ver que te has enfocado en tus estudios.
 Estoy muerta 
 Me enoja que
 
+
+Scope Local = Son las variables que se pueden acceder en un bloque de código
+Scope Global = Son las variables que se pueden acceder en todo el código
+
 """
