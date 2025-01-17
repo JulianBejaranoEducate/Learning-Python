@@ -97,3 +97,6 @@ print(set(my_new_dict)) # Se convierten las claves en un conjunto
 # 9. Convierte las claves del diccionario en una lista e imprime la lista resultante. 
 
 # 10. Crea un nuevo diccionario a partir de una lista de claves ["name", "age", "job"] usando fromkeys(), asignando a todas las claves el valor "Desconocido". 
+
+new_dict = {"Julian": 23, "Francisco": 24, "Jeisson": 25, "Steven": 29}
+print(new_dict)

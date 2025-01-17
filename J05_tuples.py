@@ -68,3 +68,6 @@ del my_tupla
 # 9. Elimina una tupla llamada my_tuple usando del y luego intenta imprimirla para ver el resultado. 
 
 # 10. Crea una tupla con un solo elemento (el número 100) e imprímela. Asegúrate de usar la sintaxis correcta para crear una tupla con un solo elemento. 
+
+my_new_tupla = ("Santa Marta", "Barranquilla", "Cartagena", "Medellin", "Bogota")
+print(my_new_tupla)

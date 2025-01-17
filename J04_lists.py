@@ -143,3 +143,15 @@ print(new_message, new_list)
 # 9. Concatena las listas [1, 2, 3] y [4, 5, 6] y almacena el resultado en una nueva lista. Imprime la lista resultante.
 
 # 10. Crea una sublista con los elementos de la lista [10, 20, 30, 40, 50] que van desde la posicion 1 hasta la 3 (sin incluir la posicion 3) e imprimela.
+
+new_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(new_list)
+
+new_list = []
+for i in range(1, 12):
+    new_list.append(i)
+print(new_list)
+
+new_list = [i for i in range(1, 12)]
+print(new_list)
+
