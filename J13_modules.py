@@ -1,4 +1,5 @@
 # Modulos / Modules
+# Los modulos son archivos de python que contienen funciones, variables y clases que pueden ser importadas en otros archivos de python.
 
 """ Atajos en python con vsc """
 # Ctrl + K + C -> Comentar

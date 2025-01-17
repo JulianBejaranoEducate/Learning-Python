@@ -97,23 +97,44 @@ print(type(my_list))
 # Enunciados Ejercicios
 
 # 1. Crea una lista con los numeros del 1 al 5 e imprimela.
-new_list = [1, 2, 3]
-new_list.insert(1, "a")
-print(new_list)
-
-
+message = "Esta lista contiene los numeros del 1 al 5"
 new_list = [1, 2, 3, 4, 5]
-print(new_list[1:5])
+print(message, new_list)
+
+new_message = "Esta lista contiene los numero del 6 al 10"
+new_list_add = [6, 7, 8, 9, 10]
+print(new_message, new_list_add)
 
 # 2. Accede e imprime el tercer elemento de la lista [10, 20, 30, 40, 50].
+new_list = [10, 20, 30, 40, 50]
+print(new_list)
+new_message = "El tercer elemento de la lista es: "
+print(new_message, new_list[2])
 
 # 3. Agrega el numero 6 al final de la lista [1, 2, 3, 4, 5] e imprimela.
+new_list = [1, 2, 3, 4, 5]
+print(new_list)
+new_message = "Agregando el numero 6 al final de la lista:"
+new_list.append(6)
+print(new_message, new_list)
 
 # 4. Inserta el numero 15 en la posicion 2 de la lista [10, 20, 30, 40, 50] e imprimela.
+new_list = [10, 20, 30, 40, 50]
+print(new_list)
+new_message = "Insertando el numero 15 en la posicion 2 y 17 en la posicion 3 de la lista:"
+new_list.insert(2, 15)
+new_list.insert(3, 17)
+print(new_message, new_list)
 
 # 5. Elimina el primero valor 30 de la lista [10, 20, 30, 40, 50] e imprimela.
+new_list = [10, 20, 30, 40, 50]
+print(new_list)
+new_message = "Eliminando el primer valor 30 de la lista:"
+new_list.remove(30)
+print(new_message, new_list)
 
 # 6. Usa la funcion "pop()" para eliminar el ultimo elemento de la lista [1, 2, 3, 4, 5] y almacenalo en una variable. Imprime la variable y la lista.
+
 
 # 7. Invierte la lista [100, 200, 300, 400, 500] e imprimela.
 
